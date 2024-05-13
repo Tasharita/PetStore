@@ -191,7 +191,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 5000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -253,7 +253,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 6500",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -315,7 +315,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 5500",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -377,7 +377,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 5000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -439,7 +439,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 5000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -501,7 +501,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 5500",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -583,7 +583,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 5000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -645,7 +645,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 7000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -707,7 +707,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 5000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -769,7 +769,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 5500",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -831,7 +831,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 5500",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -893,7 +893,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 6000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -976,7 +976,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 5000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1038,7 +1038,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 5500",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1100,7 +1100,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 7000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1162,7 +1162,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 7000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1224,7 +1224,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 16000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1286,7 +1286,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 5700",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1370,7 +1370,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 6500",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1432,7 +1432,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 18000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1494,7 +1494,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 15000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1556,7 +1556,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 8000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1618,7 +1618,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 6000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1680,7 +1680,7 @@ fun DogsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 7000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 

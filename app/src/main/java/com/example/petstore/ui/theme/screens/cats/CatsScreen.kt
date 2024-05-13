@@ -197,7 +197,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 500",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -259,7 +259,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 600",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -321,7 +321,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 750",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -383,7 +383,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 550",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -445,7 +445,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 800",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -507,7 +507,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 1000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -589,7 +589,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 700",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -651,7 +651,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 1000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -713,7 +713,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 500",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -775,7 +775,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 550",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -837,7 +837,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 600",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -899,7 +899,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 850",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -982,7 +982,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 700",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1044,7 +1044,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 600",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1106,7 +1106,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 550",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1168,7 +1168,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 500",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1230,7 +1230,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 1000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1292,7 +1292,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 1000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1376,7 +1376,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 600",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1438,7 +1438,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 550",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1500,7 +1500,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 600",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1562,7 +1562,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 500",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1624,7 +1624,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 500",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1686,7 +1686,7 @@ fun CatsScreen(navController: NavHostController){
                     )
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 1000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 

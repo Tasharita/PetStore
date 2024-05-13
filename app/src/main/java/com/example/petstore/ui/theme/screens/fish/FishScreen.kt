@@ -166,7 +166,7 @@ fun FishScreen(navController: NavHostController){
 
                         Spacer(modifier = Modifier.height(3.dp))
 
-                        Text(text = "Ksh. 2000",
+                        Text(text = "Ksh. 100",
                             textAlign = TextAlign.Center,
                             modifier = Modifier.fillMaxWidth())
 
@@ -215,7 +215,7 @@ fun FishScreen(navController: NavHostController){
 
                         Spacer(modifier = Modifier.height(3.dp))
 
-                        Text(text = "Ksh. 2000",
+                        Text(text = "Ksh. 200",
                             textAlign = TextAlign.Center,
                             modifier = Modifier.fillMaxWidth())
 
@@ -268,7 +268,7 @@ fun FishScreen(navController: NavHostController){
 
                         Spacer(modifier = Modifier.height(3.dp))
 
-                        Text(text = "Ksh. 2000",
+                        Text(text = "Ksh. 300",
                             textAlign = TextAlign.Center,
                             modifier = Modifier.fillMaxWidth())
 
@@ -317,7 +317,7 @@ fun FishScreen(navController: NavHostController){
 
                         Spacer(modifier = Modifier.height(3.dp))
 
-                        Text(text = "Ksh. 2000",
+                        Text(text = "Ksh. 250",
                             textAlign = TextAlign.Center,
                             modifier = Modifier.fillMaxWidth())
 
@@ -370,7 +370,7 @@ fun FishScreen(navController: NavHostController){
 
                         Spacer(modifier = Modifier.height(3.dp))
 
-                        Text(text = "Ksh. 2000",
+                        Text(text = "Ksh. 400",
                             textAlign = TextAlign.Center,
                             modifier = Modifier.fillMaxWidth())
 
@@ -419,7 +419,7 @@ fun FishScreen(navController: NavHostController){
 
                         Spacer(modifier = Modifier.height(3.dp))
 
-                        Text(text = "Ksh. 2000",
+                        Text(text = "Ksh. 600",
                             textAlign = TextAlign.Center,
                             modifier = Modifier.fillMaxWidth())
 
@@ -472,7 +472,7 @@ fun FishScreen(navController: NavHostController){
 
                         Spacer(modifier = Modifier.height(3.dp))
 
-                        Text(text = "Ksh. 2000",
+                        Text(text = "Ksh. 250",
                             textAlign = TextAlign.Center,
                             modifier = Modifier.fillMaxWidth())
 
@@ -521,7 +521,7 @@ fun FishScreen(navController: NavHostController){
 
                         Spacer(modifier = Modifier.height(3.dp))
 
-                        Text(text = "Ksh. 2000",
+                        Text(text = "Ksh. 600",
                             textAlign = TextAlign.Center,
                             modifier = Modifier.fillMaxWidth())
 
@@ -574,7 +574,7 @@ fun FishScreen(navController: NavHostController){
 
                         Spacer(modifier = Modifier.height(3.dp))
 
-                        Text(text = "Ksh. 2000",
+                        Text(text = "Ksh. 370",
                             textAlign = TextAlign.Center,
                             modifier = Modifier.fillMaxWidth())
 
@@ -623,7 +623,7 @@ fun FishScreen(navController: NavHostController){
 
                         Spacer(modifier = Modifier.height(3.dp))
 
-                        Text(text = "Ksh. 2000",
+                        Text(text = "Ksh. 540",
                             textAlign = TextAlign.Center,
                             modifier = Modifier.fillMaxWidth())
 

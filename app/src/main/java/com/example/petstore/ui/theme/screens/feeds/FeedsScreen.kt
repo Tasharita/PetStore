@@ -161,7 +161,7 @@ fun FeedsScreen(navController: NavHostController){
                     Spacer(modifier = Modifier.height(3.dp))
 
                     Text(
-                        text = "Ksh. 2000",
+                        text = "Ksh. 11000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth()
                     )
@@ -229,7 +229,7 @@ fun FeedsScreen(navController: NavHostController){
                     Spacer(modifier = Modifier.height(3.dp))
 
                     Text(
-                        text = "Ksh. 2000",
+                        text = "Ksh. 15000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth()
                     )
@@ -298,7 +298,7 @@ fun FeedsScreen(navController: NavHostController){
 
 
                     Text(
-                        text = "Ksh. 2000",
+                        text = "Ksh. 16000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth()
                     )
@@ -368,7 +368,7 @@ fun FeedsScreen(navController: NavHostController){
 
 
                     Text(
-                        text = "Ksh. 2000",
+                        text = "Ksh. 22000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth()
                     )
@@ -437,7 +437,7 @@ fun FeedsScreen(navController: NavHostController){
                     Spacer(modifier = Modifier.height(3.dp))
 
                     Text(
-                        text = "Ksh. 2000",
+                        text = "Ksh. 21000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth()
                     )
@@ -517,7 +517,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 26000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -573,7 +573,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 14000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -629,7 +629,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 19000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -685,7 +685,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 27000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -741,7 +741,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 17000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -814,7 +814,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 19000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -870,7 +870,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 27000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -926,7 +926,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 24000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -982,7 +982,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 12000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1038,7 +1038,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 19000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1113,7 +1113,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 21000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1169,7 +1169,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 20000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1225,7 +1225,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 18000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1281,7 +1281,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 27000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1337,7 +1337,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 13000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1412,7 +1412,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 18000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1468,7 +1468,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 18000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1524,7 +1524,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 10000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1580,7 +1580,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 18000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 
@@ -1636,7 +1636,7 @@ fun FeedsScreen(navController: NavHostController){
 
                     Spacer(modifier = Modifier.height(3.dp))
 
-                    Text(text = "Ksh. 2000",
+                    Text(text = "Ksh. 18000",
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth())
 

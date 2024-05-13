@@ -18,6 +18,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.paint
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
@@ -31,6 +32,7 @@ import com.example.petstore.navigation.HOME_URL
 import com.example.petstore.navigation.UPLOAD_URL
 import com.example.petstore.navigation.VIEW_URL
 import com.example.petstore.ui.theme.grey1
+import com.example.petstore.ui.theme.hotpink
 
 
 @Composable
@@ -38,7 +40,7 @@ fun HomeScreen(navController:NavHostController){
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .paint(painterResource(id = R.drawable.greenbackground)),
+            .paint(painterResource(id = R.drawable.greenbackground), contentScale = ContentScale.FillBounds),
         horizontalAlignment = Alignment.CenterHorizontally,
 
     ) {
@@ -69,7 +71,7 @@ fun HomeScreen(navController:NavHostController){
 
         Button(onClick = {navController.navigate(UPLOAD_URL)},
             shape = RoundedCornerShape(5.dp),
-            colors = ButtonDefaults.buttonColors(grey1),
+            colors = ButtonDefaults.buttonColors(hotpink),
             modifier = Modifier
                 .fillMaxWidth()
                 .height(90.dp)
@@ -84,7 +86,7 @@ fun HomeScreen(navController:NavHostController){
 
         Button(onClick = {navController.navigate(VIEW_URL)},
             shape = RoundedCornerShape(5.dp),
-            colors = ButtonDefaults.buttonColors(grey1),
+            colors = ButtonDefaults.buttonColors(hotpink),
             modifier = Modifier
                 .fillMaxWidth()
                 .height(90.dp)

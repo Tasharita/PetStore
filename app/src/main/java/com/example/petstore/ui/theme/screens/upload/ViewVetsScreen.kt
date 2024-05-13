@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateListOf
@@ -31,6 +32,7 @@ import androidx.navigation.compose.rememberNavController
 import coil.compose.rememberAsyncImagePainter
 import com.example.petstore.data.VeterinarianViewModel
 import com.example.petstore.models.Veterinarian
+import com.example.petstore.ui.theme.hotpink
 
 
 @Composable
@@ -97,7 +99,8 @@ fun VeterinarianItem(name:String, age:String, number:String, id:String,
 
             Button(onClick = {
                 vetRepository.deleteVeterinarian(id)
-            }) {
+            },
+                colors = ButtonDefaults.buttonColors(hotpink)) {
                 Text(text = "Delete")
             }
 
@@ -105,7 +108,8 @@ fun VeterinarianItem(name:String, age:String, number:String, id:String,
 
             Button(onClick = {
                 //navController.navigate(ROUTE_UPDATE_VET+"/$id")
-            }) {
+            },
+                colors = ButtonDefaults.buttonColors(hotpink)) {
                 Text(text = "Update")
             }
         }

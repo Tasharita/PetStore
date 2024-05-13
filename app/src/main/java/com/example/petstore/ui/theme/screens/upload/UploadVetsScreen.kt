@@ -3,6 +3,7 @@ package com.example.petstore.ui.theme.screens.upload
 import android.content.Context
 import android.net.Uri
 import android.provider.MediaStore
+import android.widget.Toast
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.Image
@@ -12,8 +13,11 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
@@ -35,13 +39,15 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.example.petstore.data.VeterinarianViewModel
+import com.example.petstore.ui.theme.hotpink
 
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun UploadScreen(navController:NavHostController){
     Column(
-        modifier = Modifier.fillMaxSize(),
+        modifier = Modifier.fillMaxSize()
+            ,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
@@ -62,7 +68,8 @@ fun UploadScreen(navController:NavHostController){
             value = vetName,
             onValueChange = { vetName = it },
             label = { Text(text = "Veterinarian name *") },
-            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Text)
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Text),
+
         )
 
         Spacer(modifier = Modifier.height(20.dp))
@@ -89,7 +96,7 @@ fun UploadScreen(navController:NavHostController){
 
         //---------------------IMAGE PICKER START-----------------------------------//
 
-        val modifier = Modifier
+        var modifier = Modifier
         ImagePicker(modifier,context, navController, vetName.trim(), vetage.trim(), vetnumber.trim())
 
         //---------------------IMAGE PICKER END-----------------------------------//
@@ -98,6 +105,7 @@ fun UploadScreen(navController:NavHostController){
 
     }
 }
+
 
 @Composable
 fun ImagePicker(modifier: Modifier = Modifier, context: Context,navController: NavHostController, name:String, age:String, number:String) {
@@ -112,7 +120,7 @@ fun ImagePicker(modifier: Modifier = Modifier, context: Context,navController: N
         }
     )
 
-    Column(modifier = modifier) {
+    Column(modifier = modifier.verticalScroll(rememberScrollState())) {
         if (hasImage && imageUri != null) {
             val bitmap = MediaStore.Images.Media.
             getBitmap(context.contentResolver,imageUri)
@@ -121,11 +129,14 @@ fun ImagePicker(modifier: Modifier = Modifier, context: Context,navController: N
         Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(bottom = 32.dp), horizontalAlignment = Alignment.CenterHorizontally,) {
+                .padding(bottom = 32.dp)
+                ,
+            horizontalAlignment = Alignment.CenterHorizontally,
+        ) {
             Button(
                 onClick = {
                     imagePicker.launch("image/*")
-                },
+                },colors = ButtonDefaults.buttonColors(hotpink)
             ) {
                 Text(
                     text = "Select Image"
@@ -136,11 +147,14 @@ fun ImagePicker(modifier: Modifier = Modifier, context: Context,navController: N
 
             Button(onClick = {
                 //-----------WRITE THE UPLOAD LOGIC HERE---------------//
-                val vetRepository = VeterinarianViewModel(navController,context)
+                var vetRepository = VeterinarianViewModel(navController,context)
                 vetRepository.uploadVeterinarian(name, age, number,imageUri!!)
 
 
-            }) {
+
+
+            },
+                colors = ButtonDefaults.buttonColors(hotpink)) {
                 Text(text = "Upload")
             }
         }

@@ -52,7 +52,7 @@ import com.example.petstore.navigation.LOGIN_URL
 import com.example.petstore.ui.theme.grey1
 import com.example.petstore.ui.theme.hotpink
 import com.example.petstore.data.AuthViewModel
-import com.example.petstore.navigation.SIGNUP_URL
+
 
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -181,7 +181,7 @@ fun SignupScreen(navController:NavHostController){
 
 
 
-        androidx.compose.material3.Text(
+        Text(
             text = "Already have an account? Login",
             fontSize = 20.sp,
             fontWeight = FontWeight.Bold,
