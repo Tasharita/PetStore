@@ -32,7 +32,7 @@ class VeterinarianViewModel(var navController:NavHostController, var context: Co
     fun uploadVeterinarian(name:String, age:String, number:String, filePath:Uri){
         val veterinarianId = System.currentTimeMillis().toString()
         val storageRef = FirebaseStorage.getInstance().getReference()
-            .child("Veterinarian/$veterinarianId")
+            .child("Veterinarians/$veterinarianId")
         progress.show()
         storageRef.putFile(filePath).addOnCompleteListener{
             progress.dismiss()
@@ -42,7 +42,7 @@ class VeterinarianViewModel(var navController:NavHostController, var context: Co
                     var imageUrl = it.toString()
                     var veterinarian = Veterinarian(name,age,number,imageUrl,veterinarianId)
                     var databaseRef = FirebaseDatabase.getInstance().getReference()
-                        .child("Veterinarian/$veterinarianId")
+                        .child("Veterinarians/$veterinarianId")
                     databaseRef.setValue(veterinarian).addOnCompleteListener {
                         if (it.isSuccessful){
                             Toast.makeText(this.context, "Success", Toast.LENGTH_SHORT).show()
@@ -83,7 +83,7 @@ class VeterinarianViewModel(var navController:NavHostController, var context: Co
 
     fun deleteVeterinarian(veterinarianId:String){
         var ref = FirebaseDatabase.getInstance().getReference()
-            .child("Veterinarian/$veterinarianId")
+            .child("Veterinarians/$veterinarianId")
         ref.removeValue()
         Toast.makeText(context, "Success", Toast.LENGTH_SHORT).show()
     }
